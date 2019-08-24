@@ -1,0 +1,6 @@
+km1 = float (input ('Informe o quilômetro inicial: '))
+km2 = float (input ('Informe o quilômetro final: '))
+litros = float (input ('Quantos litros foram gastos no percurso? '))
+kmrodados =( km2-km1)
+media = (kmrodados/litros)
+print (' A sua média de consumo de combustível foi {:.2f}'.format (media),'.')
