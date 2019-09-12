@@ -1,5 +1,9 @@
-for i in range (1,11,1):
-    n = float(input('Informe um número: '))
-soma = n+n+n+n+n+n+n+n+n+n
-media = soma/10
-print ('A soma dos números é', soma, 'e a média é', media)
+n = int(input('Informe um valor: '))
+soma = 0
+soma = soma + n
+while n <10:
+    n = int(input('Informe um valor: '))
+    soma = soma + n    
+print('A soma é ', soma)
+media = soma / 10
+print('A média é ', media)
