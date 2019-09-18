@@ -7,6 +7,7 @@ else:
     delta = b**2-4*a*c
     if delta < 0:
         print ('Essa equação não possui valores reais.')
+    #Se você calcular a raiz de delta aqui o programa realizará o calculo mesmo que delta seja menor que zero, ocorrendo um erro
     raizdelta = delta ** 0.5
     x1 = (-b + raizdelta) / (2 * a)
     x2 = (-b - raizdelta) / (2 * a)
