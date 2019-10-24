@@ -1,1 +1,0 @@
-print ('Sábado de sol')
